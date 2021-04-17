@@ -1,0 +1,305 @@
+body{
+    font-family: 'Muli', sans-serif;
+}
+/*cabecalho e rodape*/
+header{
+    background:url(img/fundo_cabecalho.jpg);
+    width:100%;
+}
+.cabecalho{
+    text-align: center;
+}
+h1 img{
+    padding:1.8em;;
+}
+h1 img:hover{
+    transition:0.5s;
+    transform:scale(1.05)
+}
+nav{
+    position:static;
+    background:#1b8fa0;
+    padding:0.5em;  
+}
+nav li{
+    display:inline;
+    padding:0 0.5em 0;
+}
+nav a{
+    font-size:22px;
+    color:#FFFFFF;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bolder;
+
+}
+nav a:hover{
+    color:#000000;
+    text-decoration:underline;
+    transition:0.5s;
+}
+footer{
+    background:#1b8fa0;
+    width:100%;
+}
+.caixa-rodape{
+    position:static;
+    padding:1em 3em;
+}
+.lista-de-midias{
+    position:relative;
+    display:inline-block;
+    text-align: right;
+    color:#FFFFFF;
+    padding:20px;
+    width:40%;
+}
+.lista-de-midias li{
+    display:block;
+    padding:0.4em;
+    font-weight:bold;
+}
+.lista-de-midias img{
+    width:20px;
+    float:right;
+    margin:0 1em;
+}
+.logo-rodape{
+    display:inline-block;
+    text-align:left;
+    padding:1em;
+    color:#FFFFFF;
+    width:40%;
+}
+/*fim_cabecalho e rodape*/
+
+.titulo-principal{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-decoration:underline;
+    padding:1em 0 1em 0;
+}
+.titulo-secundario{
+    text-transform:uppercase;
+    font-weight:bold;
+    padding:10px 0 10px;
+}
+.principal{
+    position:relative;
+    margin-top:1em;
+    
+}
+
+.principal p {
+    text-indent: 30px;
+    margin:5px;
+}
+.principal_apresentacao{
+    background:#f6f6f6;
+    display:inline-block;
+    vertical-align:top;
+    text-align: left;
+    word-wrap: break-word;
+    height:325px;
+    width: 40%;
+    padding:1em;
+    margin:1em 0 1em 2em;
+}
+.principal_foto{
+    display:inline-block;
+    width:50%;
+    margin:1em 2em 0 2em;
+}
+.principal_foto img{
+    width:100%;   
+}
+.atividades{
+    position: static;
+    margin:1em 2em 2em 2em;
+    text-align: center;
+    background:#313131;
+    color:#FFFFFF;
+}
+.atividades li{
+    display:inline-block;
+    padding:1em 0.5em 0 0;
+    vertical-align: top;
+    font-weight: bold;
+}
+.imagem_atividades{
+    display:inline-block;
+    height:150px;
+    padding:0.5em 0.5em 1em 0.5em;
+}
+
+.mapa{
+    background:#CCCCCC;
+    text-align: center;
+}
+.mapa p{
+    padding:0 0 5px 0;
+    text-decoration: underline;
+}
+.mapa iframe{
+    margin:0 auto 2em;
+    width:900px;
+}
+.tabela_horarios{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2em;      
+}
+.tabela_horarios th{
+    border:1px solid #000000;
+    background:#CCCCCC;
+    padding:2px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.tabela_horarios td{
+    border:1px solid #000000;
+    padding:5px;
+    text-align:center;
+    width:150px;
+}
+/*MIDIA*/
+.fotos_midia{
+    position:relative;
+    padding:0 0 3em;
+    text-align:center;
+    background: #CCCCCC;
+}
+.fotos_midia img{
+    display:inline-block;
+    width:25%;
+    padding:5px;
+}
+.fotos_midia img:hover{
+    transform:scale(2);
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border:4px solid #FFFFFF;
+    transition:0.4s;
+}
+.videos{
+    position:relative;
+    padding:2em 3em 3em 2em;
+    text-align:center;
+}
+.videos iframe{
+    display:inline-block;
+    width:490px;
+    height:276px;
+    margin:5px;
+    box-sizing: border-box;
+    border:5px solid #000000;
+}
+
+/*tabela de EVENTOS*/
+.tabela_eventos{
+    margin:0 3em 1em 3em ;
+    width:80%;
+    position:relative;
+    text-align:center;
+}
+.tabela_eventos th{
+    padding:10px;
+    border:2px solid #000000;
+    background:#CCCCCC;
+    font-size:18px;
+    text-transform:uppercase;
+    font-weight:bold;
+    word-wrap: break-word;
+}
+.tabela_eventos td{
+    padding:10px;
+    border:2px solid #000000;
+    text-align:center;
+    vertical-align: middle;
+}
+.texto_observacao{
+    padding:0 0 2em 2em;
+}
+/*contato*/
+form{
+    margin:3em;
+}
+form label, form legend{
+    display:block;
+    font-size:18px;
+    padding:0 0 0.5em 0;
+}
+.formulario-padrao{
+    display:block;
+    padding:8px;
+    margin:0 0 10px 0;
+    width:50%;
+}
+.checkbox{
+    margin:10px 0 10px;
+}
+.enviar{
+    width:40%;
+    padding:1em;
+    background:#1b8fa0;
+    color:#FFFFFF;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    font-size:18px;
+    cursor:pointer;
+}
+.enviar:hover{
+    background:#eba40b;
+    transform:scale(1.05);
+    transition:0.6s;
+}
+
+/*responsivo*/
+@media screen and (max-width:480px){
+    .cabecalho, .caixa-rodape, .logo-rodape, .principal, .lista-de-midias, .fotos_midia, .videos, .videos iframe, .mapa, .mapa iframe, .tabela_eventos, .texto_observacao{
+        width:auto;
+        margin:0 auto;
+    }
+    nav a{
+        font-size:20px;
+    }
+    .principal_apresentacao{
+        height:auto;
+        width: 85%;
+        margin:1em 1em 1em 1em;
+    }
+    .principal_foto{
+        width:auto;
+        margin:0 1em 1em 1em;
+    }
+    .atividades{
+        width:auto;
+        margin:0 1em 1em 1em;
+    }
+    .imagem_atividades{
+        height:auto;
+        width:150px;
+        }
+    .fotos_midia{
+        padding:0 0 3em 1em ;
+    }
+    .formulario-padrao, .enviar{
+        width:80%;
+    }
+    .logo-rodape, .caixa-rodape{
+        text-align:center;
+    }
+    .tabela_eventos{
+        margin:0 10px 0 10px;
+    }
+    .tabela_eventos th, .tabela_eventos td{
+        font-size:12px;
+    }
+    .texto_observacao, .texto_observacao p{
+        padding:5px 10px 5px 10px;
+    }
+}

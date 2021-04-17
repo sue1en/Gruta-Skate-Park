@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Gruta Skate Park</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <div class="cabecalho">
+                <h1><a href="index.html"><img src="img/logo.png"></a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="midia.html">midia</a></li>
+                        <li><a href="eventos.html">eventos</a></li>
+                        <li><a href="contato.html">contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="name" id="nomesobrenome" class="formulario-padrao" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" class="formulario-padrao" required placeholder="seu_email@dominio.com">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="formulario-padrao" required placeholder="(xx)xxxxx-xxxx">
+                <label for="caixamensagem">Mensagem</label>
+                <textarea rows="10" id="caixamensagem" class="formulario-padrao"></textarea>
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label><input type="radio" name="contato" checked>Email</label>
+                    <label><input type="radio" name="contato">Telefone</label>
+                    <label><input type="radio" name="contato">Whatsapp</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Você é?</legend>
+                    <select>
+                        <option></option>
+                        <option>Atleta</option>
+                        <option>Mãe/Pai</option>
+                        <option>Empresa</option>
+                        <option>Imprensa</option>
+                        <option>Outro</option>
+                    </select>
+                </fieldset>
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+                <input type="submit" class="enviar">
+            </form>
+        </main>
+        <footer>
+            <div class="caixa-rodape">
+                <div class="logo-rodape">
+                    <img src="img/logo-rodape.png">
+                    <p class="copyright">&copy;Copyright - Gruta Skate Park - 2020</p>
+                </div>
+                <div class="lista-de-midias">
+                    <ul>
+                        <li>Twitter
+                            <img src="img/logo-twitter.png">
+                        </li>
+                        <li>YouTube
+                            <img src="img/logo-youtube.png">
+                        </li>
+                        <li>Instagram
+                            <img src="img/logo-instagram.png">
+                        </li>
+                        <li>Facebook
+                            <img src="img/logo-facebook.png">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

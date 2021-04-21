@@ -40,7 +40,7 @@ nav a:hover{
 }
 footer{
     background:#1b8fa0;
-    width:100%;
+    /* width:100%; */
 }
 .caixa-rodape{
     position:static;
@@ -52,7 +52,8 @@ footer{
     text-align: right;
     color:#FFFFFF;
     padding:20px;
-    width:40%;
+    width:45%;
+    
 }
 .lista-de-midias li{
     display:block;
@@ -69,7 +70,7 @@ footer{
     text-align:left;
     padding:1em;
     color:#FFFFFF;
-    width:40%;
+    width:45%;
 }
 /*fim_cabecalho e rodape*/
 
@@ -87,14 +88,15 @@ footer{
     padding:10px 0 10px;
 }
 .principal{
-    position:relative;
-    margin-top:1em;
-    
+    display: flex;
+    margin:2em 0;
+    /* width: 100vw; */
+    justify-content: space-evenly;
 }
 
 .principal p {
-    text-indent: 30px;
-    margin:5px;
+    text-indent: 20px;
+    margin:20px;
 }
 .principal_apresentacao{
     background:#f6f6f6;
@@ -102,35 +104,36 @@ footer{
     vertical-align:top;
     text-align: left;
     word-wrap: break-word;
-    height:325px;
+    height:100%;
     width: 40%;
     padding:1em;
-    margin:1em 0 1em 2em;
+    margin:0 0 0 2em;
 }
 .principal_foto{
     display:inline-block;
     width:50%;
-    margin:1em 2em 0 2em;
+    margin:0 2em;
 }
 .principal_foto img{
     width:100%;   
 }
 .atividades{
     position: static;
-    margin:1em 2em 2em 2em;
+    /* margin:1em 2em 2em 2em;*/
     text-align: center;
     background:#313131;
     color:#FFFFFF;
+    margin-bottom: 2em;
 }
 .atividades li{
     display:inline-block;
-    padding:1em 0.5em 0 0;
+    padding:2em 1em;
     vertical-align: top;
     font-weight: bold;
 }
 .imagem_atividades{
     display:inline-block;
-    height:150px;
+    height:200px;
     padding:0.5em 0.5em 1em 0.5em;
 }
 
@@ -201,7 +204,6 @@ footer{
 /*tabela de EVENTOS*/
 .tabela_eventos{
     margin:0 3em 1em 3em ;
-    width:80%;
     position:relative;
     text-align:center;
 }
@@ -209,7 +211,7 @@ footer{
     padding:10px;
     border:2px solid #000000;
     background:#CCCCCC;
-    font-size:18px;
+    font-size:16px;
     text-transform:uppercase;
     font-weight:bold;
     word-wrap: break-word;
@@ -267,6 +269,11 @@ form label, form legend{
     nav a{
         font-size:20px;
     }
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+    }
     .principal_apresentacao{
         height:auto;
         width: 85%;
@@ -280,9 +287,13 @@ form label, form legend{
         width:auto;
         margin:0 1em 1em 1em;
     }
+    .atividades li{
+        padding:1em 1em;
+    }
     .imagem_atividades{
         height:auto;
-        width:150px;
+        width:280px;
+        padding:0.5em 0.5em;
         }
     .fotos_midia{
         padding:0 0 3em 1em ;
@@ -295,6 +306,7 @@ form label, form legend{
     }
     .tabela_eventos{
         margin:0 10px 0 10px;
+
     }
     .tabela_eventos th, .tabela_eventos td{
         font-size:12px;

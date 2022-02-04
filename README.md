@@ -46,4 +46,4 @@ You can access using this link --> [Gruta Skate Park](https://gruta-skate-park.v
 #### Mobile Demo:
   - Demo:
   
-    <img src="interface_prints/gruta_skate_park-site-mobile-demo.gif" width="600" alt="Demo web page mobile"/>  
+    <img src="interface_prints/gruta_skate_park-site-mobile-demo.gif" width="350" alt="Demo web page mobile"/>  
